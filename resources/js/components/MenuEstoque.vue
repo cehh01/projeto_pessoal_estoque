@@ -1,15 +1,22 @@
 <template>
     <header>
-        <nav>
-            <div>
-                <!-- O segredo absoluto é a barra / no começo -->
-                <img src="/images/logo.svg" alt="Logo do sistema" class="logo">
+        <nav class="navbar navbar-light bg-light">
+            <div class="d-flex ">
+                <a class="navbar-brand" href="/home">
+                    <img src="/images/logo.svg" alt="Logo do sistema" class="logo">
+                </a>
+                <div>
+                    <p>Estoque Pessoal</p>
+                    <p>Controle seus items</p>
+                </div>
             </div>
-            <ul>
-                <li><a href="#">Itens</a></li>
-                <li><a href="#">Estoque</a></li>
-                <li><a href="#">Unidades</a></li>
-            </ul>
+            <div>
+                <ul>
+                    <li><a href="/itens">Itens</a></li>
+                    <li><a href="/estoque">Estoque</a></li>
+                    <li><a href="/unidades">Unidades</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 </template>
